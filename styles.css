@@ -1,0 +1,33 @@
+body {
+    font-family: "Lucida Sans", Verdana, sans-serif;
+    background-color: black;
+}
+h1, h2 {
+    color: hsl(293, 92%, 86%);
+    font-weight: bold;
+    text-align: center;
+    }
+.ingredients li {
+    color: rgb(144, 114, 250);
+    font-weight: 500;
+    font-size: 18px;
+}    
+.para {
+   color: hsl(293, 92%, 86%); 
+   font-size: 14px;
+   font-weight: 300;
+}
+.directions li {
+    color:rgb(144, 114, 250);
+    font-size: 15px;
+}
+a {
+    background-color: rgb(144, 114, 250);
+    color: hsl(293, 92%, 86%); 
+    font-weight: 700;
+    font-size: large;
+}
+#title {
+    text-align: left;
+}
+
