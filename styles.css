@@ -1,33 +1,47 @@
 body {
     font-family: "Lucida Sans", Verdana, sans-serif;
-    background-color: black;
+    background-color: white
 }
 h1, h2 {
-    color: hsl(293, 92%, 86%);
+    color: hsl(293, 85%, 69%);
     font-weight: bold;
-    text-align: center;
+    margin: 15px 30px;
+    width: fit-content;
+    border: 2px solid;
+    padding: 8px;
     }
 .ingredients li {
     color: rgb(144, 114, 250);
-    font-weight: 500;
     font-size: 18px;
+    margin: 20px;
+    padding: 5px;
 }    
 .para {
-   color: hsl(293, 92%, 86%); 
-   font-size: 14px;
-   font-weight: 300;
+   color: rgb(144, 114, 250); 
+   font-size: 20px;
+   padding: 0 16px;
+   width: 750px;
+   margin: 20px;
 }
 .directions li {
     color:rgb(144, 114, 250);
-    font-size: 15px;
-}
-a {
-    background-color: rgb(144, 114, 250);
-    color: hsl(293, 92%, 86%); 
-    font-weight: 700;
-    font-size: large;
-}
+    font-size: 18px;
+    margin: 15px;
+    padding: 5px;
+ }
 #title {
-    text-align: left;
+    width: fit-content;
+    border: 5px dotted;
+    padding: 12px;
 }
-
+img {
+    margin: 20px;
+    max-width: fit-content;
+    border: 4px solid hsl(293, 85%, 69%);
+}
+.links li {
+    padding: 15px;
+    margin: 8px 12px;
+    max-width: fit-content;
+    border: 2px solid hsl(293, 85%, 69%);
+}
